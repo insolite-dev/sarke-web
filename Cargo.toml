@@ -1,0 +1,40 @@
+[package]
+name = "sarke-web"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+yew = "0.19.3"
+yew-router = "0.16.0"
+yew-hooks = "0.1.56"
+wasm-bindgen = "0.2.83"
+wasm-bindgen-futures = "0.4.33"
+wasm-logger = "0.2.0"
+stylist = { version = "0.10.1", features = ["yew"] }
+chrono = { version = "0.4.22", features = ["serde"] }
+dotenv_codegen = "0.15.0"
+gloo = "0.8.0"
+lazy_static = "1.4.0"
+log = "0.4.17"
+parking_lot = "0.12.1"
+pulldown-cmark = "0.9.2"
+reqwest = { version = "0.11.12", features = ["json"] }
+serde = "1.0.147"
+thiserror = "1.0.37"
+wee_alloc = "0.4.5"
+
+[dependencies.web-sys]
+version = "0.3"
+features = [
+  "Document",
+  "Element",
+  "Node",
+  "Window",
+  "HtmlCollection",
+  "HtmlInputElement",
+]
+
+[dev-dependencies]
+js-sys = "0.3.37"
+wasm-bindgen-test = "0.3.10"
+gloo-utils = "0.1.0"

@@ -644,7 +644,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('sarke-web-ea78308a586527bd_bg.wasm', import.meta.url);
+        input = new URL('sarke-web-42f97c9192a24617_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 

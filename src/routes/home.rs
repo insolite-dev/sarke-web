@@ -11,10 +11,10 @@ pub fn home() -> Html {
     html! {
        <div class="overlay">
           <div class="center-div">
-             <img src="./public/fav.png" class="logo"/>
+             <a href="https://github.com/insolite-dev/sarke-web">
+                 <img src="./public/fav.png" class="logo"/>
+             </a>
              <div class="gap"/>
-             <div class="title">{"Sarke"}</div>
-             <div class="divider"/>
              <div class="slog">{"... Comming Soon ..."}</div>
           </div>
        </div>

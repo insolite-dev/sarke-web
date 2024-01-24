@@ -597,11 +597,11 @@ function __wbg_get_imports() {
         throw new Error(getStringFromWasm0(arg0, arg1));
     };
     imports.wbg.__wbindgen_closure_wrapper384 = function(arg0, arg1, arg2) {
-        const ret = makeMutClosure(arg0, arg1, 162, __wbg_adapter_20);
+        const ret = makeMutClosure(arg0, arg1, 161, __wbg_adapter_20);
         return addHeapObject(ret);
     };
     imports.wbg.__wbindgen_closure_wrapper833 = function(arg0, arg1, arg2) {
-        const ret = makeClosure(arg0, arg1, 296, __wbg_adapter_23);
+        const ret = makeClosure(arg0, arg1, 295, __wbg_adapter_23);
         return addHeapObject(ret);
     };
 
@@ -644,7 +644,7 @@ async function __wbg_init(input) {
     if (wasm !== undefined) return wasm;
 
     if (typeof input === 'undefined') {
-        input = new URL('sarke-web-42f97c9192a24617_bg.wasm', import.meta.url);
+        input = new URL('sarke-web-5449a9bcb1a39874_bg.wasm', import.meta.url);
     }
     const imports = __wbg_get_imports();
 
